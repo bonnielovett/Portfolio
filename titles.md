@@ -2,7 +2,7 @@
 
 ## Drawings
 
-- ![Soft Vessel](drawings/IMG_0116.png)
+- ![](drawings/IMG_0116.png)
 - title: Drawing #1
 - date: 2025
 - width:
@@ -10,7 +10,7 @@
 - media: Charcoal on drawing paper
 - desc:
 
-- ![Waterside Glow](drawings/IMG_0491.png)
+- ![](drawings/IMG_0491.png)
 - title: Camp Orkila
 - date: 2025
 - width:
@@ -18,7 +18,7 @@
 - media: Charcoal on drawing paper
 - desc:
 
-- ![Shared Delight](drawings/IMG_0985.png)
+- ![](drawings/IMG_0985.png)
 - title: Boxes
 - date: 2025
 - width:
@@ -26,7 +26,7 @@
 - media: Charcoal on drawing paper
 - desc:
 
-- ![Drawings: Study 4](drawings/IMG_1267.png)
+- ![](drawings/IMG_1267.png)
 - title: Bike
 - date: 2024
 - width:
@@ -34,7 +34,7 @@
 - media: Charcoal on drawing paper
 - desc:
 
-- ![Drawings: Study 5](drawings/IMG_1284.png)
+- ![](drawings/IMG_1284.png)
 - title: Still Life
 - date: 2024
 - width:
@@ -42,7 +42,7 @@
 - media: Charcoal on drawing paper
 - desc:
 
-- ![Drawings: Study 6](drawings/IMG_1295.png)
+- ![](drawings/IMG_1295.png)
 - title: Face and Hands
 - date: 2024
 - width:
@@ -52,7 +52,7 @@
 
 ## Foundation
 
-- ![Playful Geometry](foundation/IMG_0379.png)
+- ![](foundation/IMG_0379.png)
 - title: 40 Squares of Freedom
 - date: 2023
 - width:
@@ -60,7 +60,7 @@
 - media: Sharpie on drawing paper
 - desc:
 
-- ![Field Study](foundation/IMG_0694.png)
+- ![](foundation/IMG_0694.png)
 - title: Values of Audrey
 - date: 2023
 - width:
@@ -68,7 +68,7 @@
 - media: paint swatches on drawing paper
 - desc:
 
-- ![Foundation: Form Study 3](foundation/IMG_2512.png)
+- ![](foundation/IMG_2512.png)
 - title: Textured Fun
 - date: 2024
 - width:
@@ -76,7 +76,7 @@
 - media: cardboard, hot glue
 - desc:
 
-- ![Shoreline Conversation](foundation/IMG_2533.png)
+- ![](foundation/IMG_2533.png)
 - title: My Eyes Are Way Up Here
 - date: 2024
 - width: 
@@ -84,7 +84,7 @@
 - media: cardboard, paper mache, plaster gauze
 - desc:
 
-- ![Foundation: Form Study 5](foundation/IMG_2563.png) 
+- ![](foundation/IMG_2563.png) 
 - title: Cascade
 - date: 2024
 - width: 1'
@@ -94,7 +94,7 @@
 
 ## Concentration
 
-- ![Concentration: Work 1](concentration/IMG_0127.png)
+- ![](concentration/IMG_0127.png)
 - title: Adrift
 - date: 20
 - width:
@@ -102,7 +102,7 @@
 - media: 2025
 - desc:
 
-- ![Tidal Memory](concentration/IMG_0238.png)
+- ![](concentration/IMG_0238.png)
 - title: Little Bonnie
 - date: 2026
 - width:
@@ -110,7 +110,7 @@
 - media: Found objects
 - desc:
 
-- ![Concentration: Work 3](concentration/IMG_0242.png)
+- ![](concentration/IMG_0242.png)
 - title: Collar of Color
 - date: 2025
 - width: 15.5"
@@ -118,7 +118,7 @@
 - media: Aluminum wire. linen fabric
 - desc:
 
-- ![Rowing Club Relic](concentration/IMG_0256.png)
+- ![](concentration/IMG_0256.png)
 - title: Threads of Friendship
 - date: 2025
 - width: 30"
@@ -126,7 +126,7 @@
 - media: Yarn, embroidery thread, linen, chairs
 - desc:
 
-- ![Lifted Rhythm](concentration/IMG_0356.png)
+- ![](concentration/IMG_0356.png)
 - title: Quarrel
 - date: 2026
 - width: 
@@ -134,7 +134,7 @@
 - media: Plaster gauze, plaster mold
 - desc:
 
-- ![Concentration: Work 6](concentration/IMG_0358.png)
+- ![](concentration/IMG_0358.png)
 - title: Tree #1, #2, #3
 - date: 2026
 - width:
@@ -142,7 +142,7 @@
 - media: 
 - desc:
 
-- ![Concentration: Work 7](concentration/IMG_0478.png)
+- ![](concentration/IMG_0478.png)
 - title: Red Figure #1, #2, #3
 - date: 2026
 - width: 
@@ -150,7 +150,7 @@
 - media: Aluminum wire, aluminum foil, yarn
 - desc:
 
-- ![Concentration: Work 8](concentration/IMG_3529.png)
+- ![](concentration/IMG_3529.png)
 - title: Trying Something New
 - date: 2025
 - width: 8"
@@ -158,7 +158,7 @@
 - media: Yarn, embroidery thread, cotton, polyester
 - desc:
 
-- ![Reimagined Path](concentration/IMG_3535.png)
+- ![](concentration/IMG_3535.png)
 - title: A Lovely Snuggly Bendy Friendy
 - date: 2025
 - width: 16"
@@ -166,7 +166,7 @@
 - media: Felt squares, stuffing, embroidery thread
 - desc:
 
-- ![Concentration: Work 10](concentration/IMG_3544.png)
+- ![](concentration/IMG_3544.png)
 - title: FISHES!!
 - date: 2025
 - width: 15"
