@@ -24,4 +24,8 @@ be careful to crop the image without losing the aspect ratio. everything about t
 
 when the user clicks on an image, they go to a new page that shows them one imgae at a time. this page has a two column layout - one for the image and the other for title, date, dimentions, materials, and descriptions, add a close box, and arrows that allow users to go to the next image and the one previous
 
-in the portfolio section, do not mention 'bonnie' in the third person
+make sure the background color is solid dark without a gradient. RGB = 26, 46, 96
+
+make sure to include all of the text from the readme.md
+
+text on the image viewer should float with a nice bouciness as the user scrolls so its always on scren 

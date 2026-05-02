@@ -3,9 +3,9 @@
   font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  background: #08112f;
+  background: #1a2e60;
   color: #f5f5ff;
-  --bg: #08112f;
+  --bg: #1a2e60;
   --surface: rgba(255, 255, 255, 0.08);
   --surface-strong: rgba(255, 255, 255, 0.14);
   --accent: #6ea8ff;
@@ -22,7 +22,7 @@
 html, body {
   margin: 0;
   min-height: 100%;
-  background: radial-gradient(circle at top left, #2c4c96 0%, #08112f 42%, #04061a 100%);
+  background: #1a2e60;
 }
 
 body {
@@ -94,10 +94,12 @@ h1 {
   font-size: clamp(2.8rem, 5vw, 4.6rem);
   letter-spacing: -0.06em;
   line-height: 0.95;
+  font-weight: 900;
 }
 
 h2 {
   font-size: clamp(1.8rem, 3vw, 3rem);
+  font-weight: 800;
 }
 
 h3 {
@@ -243,19 +245,35 @@ h3 {
   border-radius: 44px;
   background: linear-gradient(135deg, rgba(92, 121, 233, 0.95), rgba(41, 52, 120, 0.95));
   box-shadow: 0 20px 50px rgba(1, 11, 45, 0.24);
+  position: relative;
+  overflow: hidden;
 }
 
-.banner-drawings { clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%); }
-.banner-foundation { clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%); }
-.banner-concentration { clip-path: polygon(0 0, 100% 0, 100% 84%, 0 100%); }
+.section-banner::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 16px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60"><path d="M0,30 Q150,0 300,30 T600,30 T900,30 T1200,30 L1200,60 L0,60 Z" fill="%231a2e60" opacity="0.8"/></svg>') repeat-x;
+  background-size: 300px 16px;
+}
+
+.banner-drawings { }
+.banner-foundation { }
+.banner-concentration { }
 
 .section-banner h2 {
   color: white;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin: 0;
 }
 
 .section-banner p {
   margin: 0;
   color: #d7dbff;
+  font-size: 1.05rem;
 }
 
 .gallery-grid {
@@ -366,6 +384,8 @@ h3 {
   display: grid;
   gap: 18px;
   align-self: start;
+  position: sticky;
+  top: 20px;
 }
 
 .detail-copy {
@@ -434,6 +454,11 @@ h3 {
 
   .detail-image img {
     min-height: 320px;
+  }
+
+  .detail-info {
+    position: static;
+    top: auto;
   }
 }
 
