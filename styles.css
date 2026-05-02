@@ -307,9 +307,13 @@ img {
 }
 
 .resume-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
+  display: block;
+  margin-left: 24px;
+  max-width: calc(100% - 24px);
+}
+
+.resume-columns > div {
+  margin-bottom: 30px;
 }
 
 .text-block,
