@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artwork Detail | Bonnie Davidson</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="data.js" defer></script>
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-mark">B</div>
+        <div>
+          <p class="eyebrow">Artwork detail</p>
+          <h1>Single work view</h1>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="detail-frame">
+        <div class="detail-image">
+          <img id="detailImage" src="" alt="Artwork detail image" />
+        </div>
+        <div class="detail-info">
+          <div class="detail-copy">
+            <p class="eyebrow" id="detailSection">Section</p>
+            <h1 id="detailTitle">Title</h1>
+            <p class="detail-meta" id="detailMeta"></p>
+            <div class="detail-metadata">
+              <p><strong>Media:</strong> <span id="detailMedia"></span></p>
+              <p><strong>Description:</strong> <span id="detailDescription"></span></p>
+            </div>
+          </div>
+          <div class="detail-actions">
+            <a class="close-button" href="portfolio.html" aria-label="Close detail view">×</a>
+            <a id="prevLink" href="#">← Previous</a>
+            <a id="nextLink" href="#">Next →</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p><a href="portfolio.html">Back to portfolio</a></p>
+    </footer>
+  </div>
+</body>
+</html>
