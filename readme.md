@@ -1,4 +1,4 @@
-Artist Statement: 
+## Artist Statement 
 
 I work across sculpture and installation, guided by process and a strong conceptual focus. Experimentation is central to my practice—I explore different materials to understand how they behave and what possibilities they hold. 
 
@@ -6,11 +6,11 @@ Much of my work pays homage to meaningful places in my life, especially my high 
 
 Key components of my art practice are collaboration, play, and shared delight between the artist and viewer. I’m drawn to revisiting past moments and transforming them into works that honor memory while creating new experiences for others. 
 
-Artist Bio: 
+## Artist Bio
 
 Bonnie Davidson was born in Portland, Oregon, and has lived in the Seattle area since 2016. She is completing her AFA degree from Shoreline College with a concentration in sculpture and fiber arts. She has interned in the campus gallery, connecting with featured artists and gaining hands‑on curatorial experience. Her work has been exhibited in the Shoreline College Gallery and featured in several school publications. 
 
-Artist CV: 
+## Artist CV
  
 Contact Information:  
 Bonnie Davidson 
@@ -37,7 +37,6 @@ Associate of Fine Art Portfolio Exhibition. Shoreline Art Gallery. Shoreline, WA
 
 Art Exhibition: Bold Colors. Blue Koi Gallery (online) 
 
-Subtractivity. Manifest Gallery. Cincinnati, OH. (candidate) 
 
 SELECTED CURATORIAL PROJECTS & EDUCATIONAL PROGRAMMING  
  

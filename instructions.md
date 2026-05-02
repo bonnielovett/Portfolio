@@ -18,7 +18,7 @@ Example for 2D work:          1. Title,  2010,  20” x 30”,  ink on paper.
 Example for 3D work:          1.  Title,  2010,  12 ”x 5”x 3”,  carved wood.
 
 for the style of the website, add a modern look and a fun vibe. add a dark blue background so that the images pop, add a banner to separate the three categories, make the website responsive to multiple devices
-fun means playing with text sizes, bubble font, and wavy outline to banners
+fun means playing with text sizes, bubble font
 do not create a separte focal images section. there should only be three sections: drawing, foundation, concentration, and list them in that order
 be careful to crop the image without losing the aspect ratio. everything about the image should be visible.
 
