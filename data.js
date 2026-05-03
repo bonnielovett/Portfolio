@@ -1,14 +1,14 @@
 const portfolioItems = [
   // Drawings
   {
-    id: 'drawings-IMG_0116',
+    id: 'drawings-IMG_0071',
     section: 'Drawings',
-    file: 'drawings/IMG_0116.png',
+    file: 'drawings/IMG_0071.png',
     title: 'Drawing #1',
     date: '2025',
     dimensions: 'Unspecified',
     media: 'Charcoal on drawing paper',
-    description: 'A study in line and tone rendered with charcoal on paper.'
+    description: 'A study in line.'
   },
   {
     id: 'drawings-IMG_0491',
