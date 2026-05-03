@@ -47,7 +47,9 @@
     }
 
     function renderPortfolio() {
-      if (!Array.isArray(window.portfolioItems)) {
+      const portfolioData = typeof portfolioItems !== 'undefined' ? portfolioItems : window.portfolioItems;
+
+      if (!Array.isArray(portfolioData)) {
         console.error('Missing portfolioItems data. Ensure data.js is loaded.');
         return;
       }
@@ -55,7 +57,7 @@
       const main = document.getElementById('portfolioMain');
       main.innerHTML = '';
 
-      const itemsBySection = portfolioItems.reduce((acc, item) => {
+      const itemsBySection = portfolioData.reduce((acc, item) => {
         if (!acc[item.section]) {
           acc[item.section] = [];
         }
