@@ -147,6 +147,18 @@ h3 {
   color: #d7dbff;
 }
 
+.text-block img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-block::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .hero-text {
   max-width: 40rem;
   margin: 18px 0 24px;
