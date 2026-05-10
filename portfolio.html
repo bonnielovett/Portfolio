@@ -28,7 +28,7 @@
       link.href = `detail.html?item=${encodeURIComponent(item.id)}`;
 
       const image = document.createElement('img');
-      image.src = item.file;
+      image.src = item.thumbnail || item.file;
       image.alt = `${item.title} by Bonnie Davidson`;
 
       const figcaption = document.createElement('figcaption');
