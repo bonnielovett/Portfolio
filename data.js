@@ -12,10 +12,10 @@ const portfolioItems = [
     description: 'A study in line.'
   },
   {
-    id: 'drawings-IMG_0491',
+    id: 'drawings-Camp Orkila',
     section: 'Drawings',
-    file: 'drawings/IMG_0491.png',
-    thumbnail: 'drawings/IMG_0491_thumb.png',
+    file: 'drawings/Camp Orkila.png',
+    thumbnail: 'drawings/Camp Orkila_thumb.png',
     title: 'Camp Orkila',
     date: '2025',
     dimensions: 'Unspecified',
@@ -90,10 +90,10 @@ const portfolioItems = [
     description: 'A layered exploration of color, value, and composition.'
   },
   {
-    id: 'foundation-IMG_2512',
+    id: 'foundation-Textured Fun',
     section: 'Foundation',
-    file: 'foundation/IMG_2512.png',
-    thumbnail: 'foundation/IMG_2512_thumb.png',
+    file: 'foundation/Textured Fun.png',
+    thumbnail: 'foundation/Textured Fun_thumb.png',
     title: 'Textured Fun',
     date: '2024',
     dimensions: 'Unspecified',
@@ -101,33 +101,22 @@ const portfolioItems = [
     description: 'An experimental surface study built with cardboard and glue.'
   },
   {
-    id: 'foundation-IMG_2533',
+    id: 'foundation-cascade',
     section: 'Foundation',
-    file: 'foundation/IMG_2533.png',
-    thumbnail: 'foundation/IMG_2533_thumb.png',
-    title: 'My Eyes Are Way Up Here',
-    date: '2024',
-    dimensions: 'Unspecified',
-    media: 'Cardboard, paper mache, plaster gauze',
-    description: 'A sculptural study that plays with scale and viewer perspective.'
-  },
-  {
-    id: 'foundation-IMG_2563',
-    section: 'Foundation',
-    file: 'foundation/IMG_2563.png',
-    thumbnail: 'foundation/IMG_2563_thumb.png',
+    file: 'foundation/cascade.png',
+    thumbnail: 'foundation/cascade_thumb.png',
     title: 'Cascade',
     date: '2024',
-    dimensions: '6" x 1\'',
+    dimensions: '6" x 1',
     media: 'Aluminum foil, hot glue',
     description: 'A tall, playful structure built from reflective foil and texture.'
   },
   // Concentration
   {
-    id: 'concentration-IMG_0127',
+    id: 'concentration-Adrift',
     section: 'Concentration',
-    file: 'concentration/IMG_0127.png',
-    thumbnail: 'concentration/IMG_0127_thumb.png',
+    file: 'concentration/Adrift.png',
+    thumbnail: 'concentration/Adrift_thumb.png',
     title: 'Adrift',
     date: '2025',
     dimensions: 'Unspecified',
@@ -135,10 +124,10 @@ const portfolioItems = [
     description: 'A piece that evokes floating motion and open possibility.'
   },
   {
-    id: 'concentration-IMG_0238',
+    id: 'concentration-Little Bonnie',
     section: 'Concentration',
-    file: 'concentration/IMG_0238.png',
-    thumbnail: 'concentration/IMG_0238_thumb.png',
+    file: 'concentration/Little Bonnie.png',
+    thumbnail: 'concentration/Little Bonnie_thumb.png',
     title: 'Little Bonnie',
     date: '2025',
     dimensions: 'Unspecified',
@@ -179,10 +168,10 @@ const portfolioItems = [
     description: 'A sculptural study in tension, form, and surface.'
   },
   {
-    id: 'concentration-IMG_0358',
+    id: 'concentration-trees 1,2,3',
     section: 'Concentration',
-    file: 'concentration/IMG_0358.png',
-    thumbnail: 'concentration/IMG_0358_thumb.png',
+    file: 'concentration/trees 1,2,3.png',
+    thumbnail: 'concentration/trees 1,2,3_thumb.png',
     title: 'Tree #1, #2, #3',
     date: '2026',
     dimensions: 'Unspecified',
@@ -190,10 +179,10 @@ const portfolioItems = [
     description: 'A trio of organic forms that suggest growth and structure.'
   },
   {
-    id: 'concentration-IMG_0478',
+    id: 'concentration-Red Figures 1,2,3',
     section: 'Concentration',
-    file: 'concentration/IMG_0478.png',
-    thumbnail: 'concentration/IMG_0478_thumb.png',
+    file: 'concentration/Red figures 1,2,3.png',
+    thumbnail: 'concentration/Red figures 1,2,3_thumb.png',
     title: 'Red Figure #1, #2, #3',
     date: '2026',
     dimensions: 'Unspecified',
@@ -212,10 +201,10 @@ const portfolioItems = [
     description: 'A tactile composition using stitch and soft materials.'
   },
   {
-    id: 'concentration-IMG_3535',
+    id: 'concentration-A lovely snuggly bendy',
     section: 'Concentration',
-    file: 'concentration/IMG_3535.png',
-    thumbnail: 'concentration/IMG_3535_thumb.png',
+    file: 'concentration/A lovely snuggly bendy.png',
+    thumbnail: 'concentration/A lovely snuggly bendy_thumb.png',
     title: 'A Lovely Snuggly Bendy Friendy',
     date: '2025',
     dimensions: '16" x 30"',
