@@ -179,7 +179,7 @@ const portfolioItems = [
     description: 'A trio of organic forms that suggest growth and structure.'
   },
   {
-    id: 'concentration-Red Figures 1,2,3',
+    id: 'concentration-Red figures 1,2,3',
     section: 'Concentration',
     file: 'concentration/Red figures 1,2,3.png',
     thumbnail: 'concentration/Red figures 1,2,3_thumb.png',
