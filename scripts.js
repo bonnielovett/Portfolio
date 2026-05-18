@@ -13,7 +13,6 @@ function renderDetail(item) {
   const title = document.getElementById('detailTitle');
   const meta = document.getElementById('detailMeta');
   const media = document.getElementById('detailMedia');
-  const description = document.getElementById('detailDescription');
 
   image.src = item.file;
   image.alt = `${item.title} by Bonnie Davidson`;
@@ -21,7 +20,6 @@ function renderDetail(item) {
   title.innerHTML = `<em><strong>${item.title}</strong></em>`;
   meta.textContent = `${item.date} • ${item.dimensions}`;
   media.textContent = item.media || 'Not specified';
-  description.textContent = item.description || 'No description available.';
 }
 
 function connectNavigation(itemId) {
