@@ -69,7 +69,7 @@ const portfolioItems = [
   // Foundation
   {
     id: 'foundation-IMG_0379',
-    section: 'Foundation',
+    section: 'Foundation - 2D',
     file: 'foundation/IMG_0379.png',
     thumbnail: 'foundation/IMG_0379_thumb.png',
     title: '40 Squares of Freedom',
@@ -80,7 +80,7 @@ const portfolioItems = [
   },
   {
     id: 'foundation-IMG_0694',
-    section: 'Foundation',
+    section: 'Foundation - 2D',
     file: 'foundation/IMG_0694.png',
     thumbnail: 'foundation/IMG_0694_thumb.png',
     title: 'Values of Audrey',
@@ -91,7 +91,7 @@ const portfolioItems = [
   },
   {
     id: 'foundation-Textured Fun',
-    section: 'Foundation',
+    section: 'Foundation - 3D',
     file: 'foundation/Textured Fun.png',
     thumbnail: 'foundation/Textured Fun_thumb.png',
     title: 'Textured Fun',
@@ -102,7 +102,7 @@ const portfolioItems = [
   },
   {
     id: 'foundation-cascade',
-    section: 'Foundation',
+    section: 'Foundation - 3D',
     file: 'foundation/cascade.png',
     thumbnail: 'foundation/cascade_thumb.png',
     title: 'Cascade',
@@ -114,7 +114,7 @@ const portfolioItems = [
   // Concentration
   {
     id: 'concentration-Adrift',
-    section: 'Concentration',
+    section: 'Concentration: Sculpture',
     file: 'concentration/Adrift.png',
     thumbnail: 'concentration/Adrift_thumb.png',
     title: 'Adrift',
@@ -125,7 +125,7 @@ const portfolioItems = [
   },
   {
     id: 'concentration-Little Bonnie',
-    section: 'Concentration',
+    section: 'Concentration: Sculpture',
     file: 'concentration/Little Bonnie.png',
     thumbnail: 'concentration/Little Bonnie_thumb.png',
     title: 'Little Bonnie',
@@ -136,7 +136,7 @@ const portfolioItems = [
   },
   {
     id: 'concentration-IMG_0242',
-    section: 'Concentration',
+    section: 'Concentration: Fiber Art',
     file: 'concentration/IMG_0242.png',
     thumbnail: 'concentration/IMG_0242_thumb.png',
     title: 'Collar of Color',
@@ -147,7 +147,7 @@ const portfolioItems = [
   },
   {
     id: 'concentration-IMG_0256',
-    section: 'Concentration',
+    section: 'Concentration: Fiber Art',
     file: 'concentration/IMG_0256.png',
     thumbnail: 'concentration/IMG_0256_thumb.png',
     title: 'Threads of Friendship',
@@ -158,18 +158,18 @@ const portfolioItems = [
   },
   {
     id: 'concentration-IMG_0356',
-    section: 'Concentration',
+    section: 'Concentration: Sculpture',
     file: 'concentration/IMG_0356.png',
     thumbnail: 'concentration/IMG_0356_thumb.png',
     title: 'Quarrel',
     date: '2026',
     dimensions: 'Unspecified',
-    media: 'Plaster gauze, plaster mold',
+    media: 'Plaster bandage, plaster of paris',
     description: 'A sculptural study in tension, form, and surface.'
   },
   {
     id: 'concentration-trees 1,2,3',
-    section: 'Concentration',
+    section: 'Concentration: Sculpture',
     file: 'concentration/trees 1,2,3.png',
     thumbnail: 'concentration/trees 1,2,3_thumb.png',
     title: 'Tree #1, #2, #3',
@@ -180,7 +180,7 @@ const portfolioItems = [
   },
   {
     id: 'concentration-Red figures 1,2,3',
-    section: 'Concentration',
+    section: 'Concentration: Sculpture',
     file: 'concentration/Red figures 1,2,3.png',
     thumbnail: 'concentration/Red figures 1,2,3_thumb.png',
     title: 'Red Figure #1, #2, #3',
@@ -191,7 +191,7 @@ const portfolioItems = [
   },
   {
     id: 'concentration-IMG_3529',
-    section: 'Concentration',
+    section: 'Concentration: Fiber Art',
     file: 'concentration/IMG_3529.png',
     thumbnail: 'concentration/IMG_3529_thumb.png',
     title: 'Trying Something New',
@@ -202,7 +202,7 @@ const portfolioItems = [
   },
   {
     id: 'concentration-A lovely snuggly bendy',
-    section: 'Concentration',
+    section: 'Concentration: Fiber Art',
     file: 'concentration/A lovely snuggly bendy.png',
     thumbnail: 'concentration/A lovely snuggly bendy_thumb.png',
     title: 'A Lovely Snuggly Bendy Friendy',
@@ -213,7 +213,7 @@ const portfolioItems = [
   },
   {
     id: 'concentration-IMG_3544',
-    section: 'Concentration',
+    section: 'Concentration: Fiber Art',
     file: 'concentration/IMG_3544.png',
     thumbnail: 'concentration/IMG_3544_thumb.png',
     title: 'FISHES!!',
