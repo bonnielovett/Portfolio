@@ -41,7 +41,7 @@ a:hover {
 /* Portfolio and About page overrides */
 body.page-portfolio,
 body.page-about {
-  background: #ffffff;
+  background: transparent;
   color: #000000;
 }
 
