@@ -42,7 +42,7 @@ a:hover {
 body.page-portfolio,
 body.page-about {
   background: transparent;
-  color: #000000;
+  color: #ffffff;
 }
 
 body.page-portfolio h1,
@@ -51,19 +51,19 @@ body.page-portfolio h3,
 body.page-about h1,
 body.page-about h2,
 body.page-about h3 {
-  color: #000000;
+  color: #ffffff;
 }
 
 body.page-portfolio .site-header .nav-link,
 body.page-about .site-header .nav-link {
-  color: #000000;
+  color: #ffffff;
 }
 
 body.page-portfolio .site-header .nav-link.active,
 body.page-about .site-header .nav-link.active,
 body.page-portfolio .site-header .nav-link:hover,
 body.page-about .site-header .nav-link:hover {
-  color: #000000;
+  color: #ffffff;
 }
 
 body.page-home .site-header .nav-link.active {
@@ -83,7 +83,7 @@ body.page-about .contact-card p,
 body.page-about .resume-section p,
 body.page-about .detail-block h3,
 body.page-about .detail-block p {
-  color: #111111;
+  color: #ffffff;
 }
 
 body.page-about .section-light,
@@ -91,8 +91,8 @@ body.page-about .bio-panel,
 body.page-about .profile-panel,
 body.page-about .contact-card,
 body.page-about .resume-section {
-  background: #f5f5f5;
-  border-color: rgba(0, 0, 0, 0.08);
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 img {
