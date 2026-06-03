@@ -85,7 +85,7 @@ const portfolioItems = [
     thumbnail: 'foundation/IMG_0694_thumb.png',
     title: 'Values of Audrey',
     date: '2023',
-    dimensions: '1' x 8.75"',
+    dimensions: '12" x 8.75"',
     media: 'Paint swatches, printed image, and sharpie on drawing paper',
     description: 'A layered exploration of color, value, and composition.'
   },
@@ -97,7 +97,7 @@ const portfolioItems = [
     title: 'Textured Fun',
     date: '2024',
     dimensions: '17" x 16" x 37"',
-    media: 'Cardboard, hot glue',
+    media: 'Cardboard, packing paper',
     description: 'An experimental surface study built with cardboard and glue.'
   },
   {
@@ -153,7 +153,7 @@ const portfolioItems = [
     title: 'Threads of Friendship',
     date: '2026',
     dimensions: '29.5" x 54" x 3.5"',
-    media: 'Yarn, mixed fabrics, chairs',
+    media: 'Yarn, mixed fabrics, metal cushioned chairs',
     description: 'A narrative installation linking craft and relationship.'
   },
   {
