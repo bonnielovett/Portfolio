@@ -16,10 +16,10 @@ const portfolioItems = [
     section: 'Drawings',
     file: 'drawings/Camp Orkila.png',
     thumbnail: 'drawings/Camp Orkila_thumb.png',
-    title: 'Camp Orkila',
+    title: 'Looking out over the PCT"',
     date: '2025',
-    dimensions: 'Unspecified',
-    media: 'Charcoal on drawing paper',
+    dimensions: '25.5" x 19.75"',
+    media: 'Charcoal on toned drawing paper',
     description: 'A drawing that captures atmosphere and memory from camp life.'
   },
   {
@@ -29,7 +29,7 @@ const portfolioItems = [
     thumbnail: 'drawings/IMG_0985_thumb.png',
     title: 'Boxes',
     date: '2025',
-    dimensions: 'Unspecified',
+    dimensions: '8” x 10.62”', 
     media: 'Charcoal on drawing paper',
     description: 'A composition of shapes and shadows in hand-drawn charcoal.'
   },
@@ -40,7 +40,7 @@ const portfolioItems = [
     thumbnail: 'drawings/IMG_1267_thumb.png',
     title: 'Bike',
     date: '2024',
-    dimensions: 'Unspecified',
+    dimensions: '2’ x 18”',
     media: 'Charcoal on drawing paper',
     description: 'A study of movement and structure in everyday form.'
   },
@@ -51,7 +51,7 @@ const portfolioItems = [
     thumbnail: 'drawings/IMG_1284_thumb.png',
     title: 'Still Life',
     date: '2024',
-    dimensions: 'Unspecified',
+    dimensions: '18” x 2’',
     media: 'Charcoal on drawing paper',
     description: 'A quiet still life that explores texture and light.'
   },
@@ -62,7 +62,7 @@ const portfolioItems = [
     thumbnail: 'drawings/IMG_1295_thumb.png',
     title: 'Face and Hands',
     date: '2024',
-    dimensions: 'Unspecified',
+    dimensions: '2’ x 18”',
     media: 'Charcoal on drawing paper',
     description: 'A figurative drawing emphasizing gesture and expression.'
   },
@@ -72,7 +72,7 @@ const portfolioItems = [
     section: 'Foundation - 2D',
     file: 'foundation/IMG_0379.png',
     thumbnail: 'foundation/IMG_0379_thumb.png',
-    title: '40 Squares of Freedom',
+    title: '40 Squares',
     date: '2023',
     dimensions: 'Unspecified',
     media: 'Sharpie on drawing paper',
@@ -85,8 +85,8 @@ const portfolioItems = [
     thumbnail: 'foundation/IMG_0694_thumb.png',
     title: 'Values of Audrey',
     date: '2023',
-    dimensions: 'Unspecified',
-    media: 'Paint swatches on drawing paper',
+    dimensions: '1' x 8.75"',
+    media: 'Paint swatches, printed image, and sharpie on drawing paper',
     description: 'A layered exploration of color, value, and composition.'
   },
   {
@@ -96,7 +96,7 @@ const portfolioItems = [
     thumbnail: 'foundation/Textured Fun_thumb.png',
     title: 'Textured Fun',
     date: '2024',
-    dimensions: 'Unspecified',
+    dimensions: '17" x 16" x 37"',
     media: 'Cardboard, hot glue',
     description: 'An experimental surface study built with cardboard and glue.'
   },
@@ -107,7 +107,7 @@ const portfolioItems = [
     thumbnail: 'foundation/cascade_thumb.png',
     title: 'Cascade',
     date: '2024',
-    dimensions: '6" x 1',
+    dimensions: 'Dimensions vary',
     media: 'Aluminum foil, hot glue',
     description: 'A tall, playful structure built from reflective foil and texture.'
   },
@@ -119,8 +119,8 @@ const portfolioItems = [
     thumbnail: 'concentration/Adrift_thumb.png',
     title: 'Adrift',
     date: '2025',
-    dimensions: 'Unspecified',
-    media: 'Unspecified',
+    dimensions: '26.5" x 27.5" x 25"',
+    media: 'Found wood, mixed fabrics',
     description: 'A piece that evokes floating motion and open possibility.'
   },
   {
@@ -129,9 +129,9 @@ const portfolioItems = [
     file: 'concentration/Little Bonnie.png',
     thumbnail: 'concentration/Little Bonnie_thumb.png',
     title: 'Little Bonnie',
-    date: '2025',
-    dimensions: 'Unspecified',
-    media: 'Unspecified',
+    date: '2026',
+    dimensions: '14" x 10.5" x 13"',
+    media: 'Found objects',
     description: 'A found-object sculpture that celebrates personal memory.'
   },
   {
@@ -141,7 +141,7 @@ const portfolioItems = [
     thumbnail: 'concentration/IMG_0242_thumb.png',
     title: 'Collar of Color',
     date: '2025',
-    dimensions: '15.5" x 17.5"',
+    dimensions: '17.5" x 15.5" x 8.5"',
     media: 'Aluminum wire, linen fabric',
     description: 'A vibrant textile piece built around color and movement.'
   },
@@ -151,9 +151,9 @@ const portfolioItems = [
     file: 'concentration/IMG_0256.png',
     thumbnail: 'concentration/IMG_0256_thumb.png',
     title: 'Threads of Friendship',
-    date: '2025',
-    dimensions: '30" x 20.25"',
-    media: 'Yarn, embroidery thread, linen, chairs',
+    date: '2026',
+    dimensions: '29.5" x 54" x 3.5"',
+    media: 'Yarn, mixed fabrics, chairs',
     description: 'A narrative installation linking craft and relationship.'
   },
   {
@@ -163,8 +163,8 @@ const portfolioItems = [
     thumbnail: 'concentration/IMG_0356_thumb.png',
     title: 'Quarrel',
     date: '2026',
-    dimensions: 'Unspecified',
-    media: 'Plaster bandage, plaster of paris',
+    dimensions: '11.5" x 8.5" x 3.5"',
+    media: 'Plaster bandage, plaster mold',
     description: 'A sculptural study in tension, form, and surface.'
   },
   {
@@ -174,8 +174,8 @@ const portfolioItems = [
     thumbnail: 'concentration/trees 1,2,3_thumb.png',
     title: 'Tree #1, #2, #3',
     date: '2026',
-    dimensions: 'Unspecified',
-    media: 'Unspecified',
+    dimensions: '#1: 20” x 5 1/4”, 5 1/2” (stacked wood), #2: 20.5” x 7” x 7” (tree with screws), #3: 23.25” x 13” x 7.25” (diagonal tree)',
+    media: 'Found wood, bamboo stalks, cardstock, felt',
     description: 'A trio of organic forms that suggest growth and structure.'
   },
   {
@@ -185,7 +185,7 @@ const portfolioItems = [
     thumbnail: 'concentration/Red figures 1,2,3_thumb.png',
     title: 'Red Figure #1, #2, #3',
     date: '2026',
-    dimensions: 'Unspecified',
+    dimensions: '#1: 6” x 8” x 8” (squiggly figure), #2: 4” x 18.5” x 13.75” (big figure), #3: 3.5” x 8.75” x 5.5” (curved figure)',
     media: 'Aluminum wire, aluminum foil, yarn',
     description: 'A playful set of figures built with line and textile.'
   },
@@ -196,8 +196,8 @@ const portfolioItems = [
     thumbnail: 'concentration/IMG_3529_thumb.png',
     title: 'Trying Something New',
     date: '2025',
-    dimensions: '8" x 10"',
-    media: 'Yarn, embroidery thread, cotton, polyester',
+    dimensions: '10" x 8"',
+    media: 'Yarn, embroidery thread, cotton, and polyester',
     description: 'A tactile composition using stitch and soft materials.'
   },
   {
@@ -207,7 +207,7 @@ const portfolioItems = [
     thumbnail: 'concentration/A lovely snuggly bendy_thumb.png',
     title: 'A Lovely Snuggly Bendy Friendy',
     date: '2025',
-    dimensions: '16" x 30"',
+    dimensions: '30" x 16" x 12"',
     media: 'Felt squares, stuffing, embroidery thread',
     description: 'A joyful soft sculpture inspired by comfort and play.'
   },
@@ -216,10 +216,10 @@ const portfolioItems = [
     section: 'Concentration: Fiber Art',
     file: 'concentration/IMG_3544.png',
     thumbnail: 'concentration/IMG_3544_thumb.png',
-    title: 'FISHES!!',
+    title: 'FISHIES!!',
     date: '2025',
-    dimensions: '15" x 17.5"',
-    media: 'Embroidery thread, ink, polyester',
+    dimensions: '17.5" x 15"',
+    media: 'Embroidery thread, printing ink, polyester',
     description: 'A vibrant textile composition with aquatic energy.'
   }
 ];
