@@ -89,7 +89,7 @@ body.page-about .detail-block p {
   color: #ffffff;
 }
 
-body.page-about .section-light,
+
 body.page-about .bio-panel,
 body.page-about .profile-panel,
 body.page-about .contact-card,
@@ -299,6 +299,8 @@ h3 {
 .section-light {
   padding: 32px;
   margin: 26px 0;
+  background:rgba(26, 46, 96, 0.6);
+  border-color: rgba(255, 255, 255, 0.2)
 }
 
 .spotlight {
@@ -343,7 +345,7 @@ h3 {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 22px;
   padding: 0 12px 28px;
 }
@@ -355,6 +357,7 @@ h3 {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   transition: transform 0.24s ease, border-color 0.24s ease;
+  min-width: 290px;
 }
 
 .gallery-item:hover {
@@ -370,11 +373,12 @@ h3 {
 
 .gallery-item figcaption {
   padding: 16px 18px 22px;
+  background: white;
 }
 
 .image-title {
   display: block;
-  color: #f9fbff;
+  color: black;
   font-size: 1rem;
   line-height: 1.4;
 }
