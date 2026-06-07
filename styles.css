@@ -69,6 +69,9 @@ body.page-about .site-header .nav-link:hover {
 body.page-home .site-header .nav-link.active {
   color: #ffffff;
 }
+body.page-home {
+  background: transparent;
+}
 
 body.page-home .hero-copy h1,
 body.page-home .hero-copy .eyebrow,
@@ -325,10 +328,6 @@ h3 {
   background: linear-gradient(135deg, rgba(92, 121, 233, 0.95), rgba(41, 52, 120, 0.95));
   box-shadow: 0 20px 50px rgba(1, 11, 45, 0.24);
 }
-
-.banner-drawings { }
-.banner-foundation { }
-.banner-concentration { }
 
 .section-banner h2 {
   color: white;
