@@ -23,7 +23,7 @@ const portfolioItems = [
     description: ''
   },
   {
-    id: 'drawings-IMG_0985',
+    id: 'drawings-boxes',
     section: 'Drawings',
     file: 'drawings/boxes changed.png',
     thumbnail: 'drawings/boxes changed thumb.png',
@@ -34,7 +34,7 @@ const portfolioItems = [
     description: 'A composition of shapes and shadows in hand-drawn charcoal.'
   },
   {
-    id: 'drawings-IMG_1267',
+    id: 'drawings-bike',
     section: 'Drawings',
     file: 'drawings/bike changed.png',
     thumbnail: 'drawings/bike changed thumb.png',
@@ -45,7 +45,7 @@ const portfolioItems = [
     description: 'A study of movement and structure in everyday form.'
   },
   {
-    id: 'drawings-IMG_1284',
+    id: 'drawings-watering can',
     section: 'Drawings',
     file: 'drawings/watering can changed.png',
     thumbnail: 'drawings/watering can thumb.png',
@@ -56,7 +56,7 @@ const portfolioItems = [
     description: 'A quiet still life that explores texture and light.'
   },
   {
-    id: 'drawings-IMG_1295',
+    id: 'drawings-face and hands',
     section: 'Drawings',
     file: 'drawings/face and hands new perspective.png',
     thumbnail: 'drawings/face and hands new perspective thumb.png',
@@ -68,7 +68,7 @@ const portfolioItems = [
   },
   // Foundation
   {
-    id: 'foundation-IMG_0379',
+    id: 'foundation-40 squares',
     section: 'Foundation - 2D',
     file: 'foundation/40 squares changed.png',
     thumbnail: 'foundation/40 squares changed thumb.png',
@@ -79,7 +79,7 @@ const portfolioItems = [
     description: 'A bold foundational study in pattern and rhythm.'
   },
   {
-    id: 'foundation-IMG_0694',
+    id: 'foundation-audrey values',
     section: 'Foundation - 2D',
     file: 'foundation/audrey changed.png',
     thumbnail: 'foundation/audrey changed thumb.png',
