@@ -114,13 +114,33 @@ const portfolioItems = [
   {
     id: 'foundation-cascade',
     section: 'Foundation - 3D',
-    file: 'foundation/cascade.png',
-    thumbnail: 'foundation/cascade_thumb.png',
-    title: 'Cascade',
-    date: '2024',
-    dimensions: 'Dimensions variable',
-    media: 'Aluminum foil, hot glue',
-    description: 'A tall, playful structure built from reflective foil and texture.'
+    group: [
+      {
+        file: 'foundation/cascade.png',
+        thumbnail: 'foundation/cascade_thumb.png',
+        title: 'Cascade',
+        date: '2024',
+        dimensions: 'Dimensions variable',
+        media: 'Aluminum foil, hot glue',
+        description: 'A tall, playful structure built from reflective foil and texture.'
+      },
+      {
+        file: 'foundation/cascade detail.png',
+        title: 'Cascade',
+        date: '2024',
+        dimensions: 'Dimensions variable',
+        media: 'Aluminum foil, hot glue',
+        description: 'A tall, playful structure built from reflective foil and texture.'
+      },
+      {
+        file: 'foundation/Cascade detail 2.png',
+        title: 'Cascade',
+        date: '2024',
+        dimensions: 'Dimensions variable',
+        media: 'Aluminum foil, hot glue',
+        description: 'A tall, playful structure built from reflective foil and texture.'
+      },
+    ]
   },
   // Concentration
   {
@@ -410,13 +430,41 @@ const portfolioItems = [
   {
     id: 'concentration-A lovely snuggly bendy',
     section: 'Concentration: Fiber Art',
-    file: 'concentration/A lovely snuggly bendy.png',
-    thumbnail: 'concentration/A lovely snuggly bendy_thumb.png',
-    title: 'A Lovely Snuggly Bendy Friendy',
-    date: '2025',
-    dimensions: '30" x 12" x 16"',
-    media: 'Felt squares, stuffing, embroidery thread',
-    description: 'A joyful soft sculpture inspired by comfort and play.'
+    group: [
+      {
+        file: 'concentration/A lovely snuggly bendy.png',
+        thumbnail: 'concentration/A lovely snuggly bendy_thumb.png',
+        title: 'A Lovely Snuggly Bendy Friendy',
+        date: '2025',
+        dimensions: '30" x 12" x 16"',
+        media: 'Felt squares, stuffing, embroidery thread',
+        description: 'A joyful soft sculpture inspired by comfort and play.'
+      },
+      {
+        file: 'concentration/lovely snuggly detail.png',
+        title: 'A Lovely Snuggly Bendy Friendy',
+        date: '2025',
+        dimensions: '30" x 12" x 16"',
+        media: 'Felt squares, stuffing, embroidery thread',
+        description: 'A joyful soft sculpture inspired by comfort and play.'
+      },
+      {
+        file: 'concentration/lovely snuggly detail 2.png',
+        title: 'A Lovely Snuggly Bendy Friendy',
+        date: '2025',
+        dimensions: '30" x 12" x 16"',
+        media: 'Felt squares, stuffing, embroidery thread',
+        description: 'A joyful soft sculpture inspired by comfort and play.'
+      },
+      {
+        file: 'concentration/lovely snuggly detail 3.png',
+        title: 'A Lovely Snuggly Bendy Friendy',
+        date: '2025',
+        dimensions: '30" x 12" x 16"',
+        media: 'Felt squares, stuffing, embroidery thread',
+        description: 'A joyful soft sculpture inspired by comfort and play.'
+      },
+    ]
   },
   {
     id: 'concentration-IMG_3544',
