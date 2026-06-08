@@ -66,12 +66,12 @@ const portfolioItems = [
     media: 'Charcoal on drawing paper',
     description: 'A figurative drawing emphasizing gesture and expression.'
   },
-  // Foundation
+  // Foundations
   {
-    id: 'foundation-40 squares',
+    id: '2D Design-40 squares',
     section: '2D Design',
-    file: 'foundation/40 squares changed.png',
-    thumbnail: 'foundation/40 squares changed thumb.png',
+    file: '2D Design/40 squares changed.png',
+    thumbnail: '2D Design/40 squares changed thumb.png',
     title: '40 Squares',
     date: '2023',
     dimensions: '17" x 19.33"',
@@ -79,10 +79,10 @@ const portfolioItems = [
     description: 'A bold foundational study in pattern and rhythm.'
   },
   {
-    id: 'foundation-audrey values',
+    id: '2D Design-audrey values',
     section: '2D Design',
-    file: 'foundation/audrey changed.png',
-    thumbnail: 'foundation/audrey changed thumb.png',
+    file: '2D Design/audrey changed.png',
+    thumbnail: '2D Design/audrey changed thumb.png',
     title: 'Values of Audrey',
     date: '2023',
     dimensions: '8.75" x 12"',
@@ -90,12 +90,12 @@ const portfolioItems = [
     description: 'A layered exploration of color, value, and composition.'
   },
   {
-    id: 'foundation-textured fun',
+    id: '3D Design-textured fun',
     section: '3D Design',
     group: [
       {
-    file: 'foundation/Textured Fun.png',
-    thumbnail: 'foundation/Textured Fun_thumb.png',
+    file: '3D Design/Textured Fun.png',
+    thumbnail: '3D Design/Textured Fun_thumb.png',
     title: 'Textured Fun',
     date: '2024',
     dimensions: '17" x 16" x 37"',
@@ -103,8 +103,8 @@ const portfolioItems = [
     description: 'An experimental surface study built with cardboard and glue.'
       },
       {
-        file: 'foundation/textured detail.png',
-        thumbnail: 'foundation/textured detial thumb.png',
+        file: '3D Design/textured detail.png',
+        thumbnail: '3D Design/textured detial thumb.png',
         title: 'Textured Fun',
         date: '2024',
         dimensions: '17" x 16" x 37"',
@@ -112,8 +112,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
       {
-        file: 'foundation/textured detail 2.png',
-        thumbnail: 'foundation/textured detail 2 thumb.png',
+        file: '3D Design/textured detail 2.png',
+        thumbnail: '3D Design/textured detail 2 thumb.png',
         title: 'Textured Fun',
         date: '2024',
         dimensions: '17" x 16" x 37"',
@@ -121,8 +121,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
         {
-        file: 'foundation/textured detail 3.png',
-        thumbnail: 'foundation/textured detail 3 thumb.png',
+        file: '3D Design/textured detail 3.png',
+        thumbnail: '3D Design/textured detail 3 thumb.png',
         title: 'Textured Fun',
         date: '2024',
         dimensions: '17" x 16" x 37"',
@@ -132,12 +132,12 @@ const portfolioItems = [
     ]
   },
   {
-    id: 'foundation-cascade',
+    id: '3D Design-cascade',
     section: '3D Design',
     group: [
       {
-        file: 'foundation/cascade.png',
-        thumbnail: 'foundation/cascade_thumb.png',
+        file: '3D Design/cascade.png',
+        thumbnail: '3D Design/cascade_thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
@@ -145,7 +145,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
       {
-        file: 'foundation/cascade detail.png',
+        file: '3D Design/cascade detail.png',
+        thumbnail: '3D Design/cascade detail thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
@@ -153,7 +154,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
       {
-        file: 'foundation/Cascade detail 2.png',
+        file: '3D Design/Cascade detail 2.png',
+        thumbnail: '3D Design/Cascade detail 2 thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
