@@ -1,17 +1,6 @@
 const portfolioItems = [
   // Drawings
   {
-    id: 'drawings-IMG_0071',
-    section: 'Drawings',
-    file: 'drawings/IMG_0071.png',
-    thumbnail: 'drawings/IMG_0071_thumb.png',
-    title: 'Drawing #1',
-    date: '2025',
-    dimensions: 'Unspecified',
-    media: 'Charcoal on drawing paper',
-    description: 'A study in line.'
-  },
-  {
     id: 'drawings-Camp Orkila',
     section: 'Drawings',
     file: 'drawings/Camp Orkila.png',
@@ -25,13 +14,13 @@ const portfolioItems = [
   {
     id: 'drawings-foot',
     section: 'Drawings',
-    file: 'drawings/IMG_0116',
-    thumbnail: 'drawings/IMG_0116_thumb.png',
-    title: 'Looking out over the PCT"',
+    file: 'drawings/black sock changed.jpg',
+    thumbnail: 'drawings/black sock thumbnail.png',
+    title: 'Black Sock',
     date: '2025',
     dimensions: '25.5" x 19.75"',
     media: 'Charcoal on toned drawing paper',
-    description: 'A drawing of a foot.'
+    description: ''
   },
   {
     id: 'drawings-IMG_0985',
