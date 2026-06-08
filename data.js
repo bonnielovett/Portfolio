@@ -224,13 +224,41 @@ const portfolioItems = [
   {
     id: 'concentration-IMG_0242',
     section: 'Concentration: Fiber Art',
-    file: 'concentration/IMG_0242.png',
-    thumbnail: 'concentration/IMG_0242_thumb.png',
-    title: 'Collar of Color',
-    date: '2025',
-    dimensions: '17.5" x 15.5" x 8.5"',
-    media: 'Aluminum wire, mixed fabrics',
-    description: 'A vibrant textile piece built around color and movement.'
+    group: [
+      {
+        file: 'concentration/IMG_0242.png',
+        thumbnail: 'concentration/IMG_0242_thumb.png',
+        title: 'Collar of Color',
+        date: '2025',
+        dimensions: '17.5" x 15.5" x 8.5"',
+        media: 'Aluminum wire, mixed fabrics',
+        description: 'A vibrant textile piece built around color and movement.'
+      },
+      {
+        file: 'concentration/collar detail.png',
+        title: 'Collar of Color',
+        date: '2025',
+        dimensions: '17.5" x 15.5" x 8.5"',
+        media: 'Aluminum wire, mixed fabrics',
+        description: 'A vibrant textile piece built around color and movement.'
+      },
+      {
+        file: 'concentration/collar detail 2.png',
+        title: 'Collar of Color',
+        date: '2025',
+        dimensions: '17.5" x 15.5" x 8.5"',
+        media: 'Aluminum wire, mixed fabrics',
+        description: 'A vibrant textile piece built around color and movement.'
+      },
+      {
+        file: 'concentration/collar detail 3.png',
+        title: 'Collar of Color',
+        date: '2025',
+        dimensions: '17.5" x 15.5" x 8.5"',
+        media: 'Aluminum wire, mixed fabrics',
+        description: 'A vibrant textile piece built around color and movement.'
+      },
+    ]
   },
   {
     id: 'concentration-IMG_0256',
@@ -425,6 +453,46 @@ const portfolioItems = [
         media: 'Yarn, embroidery thread, fabrics',
         description: 'A tactile composition using stitch and soft materials.'
       },
+      {
+        file: 'concentration/trying detail.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, fabrics',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
+      {
+        file: 'concentration/trying detail 2.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, fabrics',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
+      {
+        file: 'concentration/trying detail 3.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, fabrics',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
+      {
+        file: 'concentration/trying detail 4.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, fabrics',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
+      {
+        file: 'concentration/trying detail 5.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, fabrics',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
     ]
   },
   {
@@ -469,12 +537,40 @@ const portfolioItems = [
   {
     id: 'concentration-IMG_3544',
     section: 'Concentration: Fiber Art',
-    file: 'concentration/IMG_3544.png',
-    thumbnail: 'concentration/IMG_3544_thumb.png',
-    title: 'FISHIES!!',
-    date: '2025',
-    dimensions: '17.5" x 15"',
-    media: 'Embroidery thread, water solubale blockprinting ink, polyester',
-    description: 'A vibrant textile composition with aquatic energy.'
+    group: [
+      {
+        file: 'concentration/IMG_3544.png',
+        thumbnail: 'concentration/IMG_3544_thumb.png',
+        title: 'FISHIES!!',
+        date: '2025',
+        dimensions: '17.5" x 15"',
+        media: 'Embroidery thread, water solubale blockprinting ink, polyester',
+        description: 'A vibrant textile composition with aquatic energy.'
+      },
+      {
+        file: 'concentration/fishes detail.png',
+        title: 'FISHIES!!',
+        date: '2025',
+        dimensions: '17.5" x 15"',
+        media: 'Embroidery thread, water solubale blockprinting ink, polyester',
+        description: 'A vibrant textile composition with aquatic energy.'
+      },
+      {
+        file: 'concentration/fish detail 2.png',
+        title: 'FISHIES!!',
+        date: '2025',
+        dimensions: '17.5" x 15"',
+        media: 'Embroidery thread, water solubale blockprinting ink, polyester',
+        description: 'A vibrant textile composition with aquatic energy.'
+      },
+      {
+        file: 'concentration/fish detail 3.png',
+        title: 'FISHIES!!',
+        date: '2025',
+        dimensions: '17.5" x 15"',
+        media: 'Embroidery thread, water solubale blockprinting ink, polyester',
+        description: 'A vibrant textile composition with aquatic energy.'
+      },
+    ]
   }
 ];
