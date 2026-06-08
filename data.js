@@ -217,8 +217,8 @@ const portfolioItems = [
     section: 'Concentration: Fiber Art',
     group: [
       {
-        file: 'concentration/IMG_0256.png',
-        thumbnail: 'concentration/IMG_0256_thumb.png',
+        file: 'concentration/threads.png',
+        thumbnail: 'concentration/threads_thumb.png',
         title: 'Threads of Friendship',
         date: '2026',
         dimensions: '54" x 29.5" x 17"',
@@ -226,7 +226,39 @@ const portfolioItems = [
         description: 'A narrative installation linking craft and relationship.'
       },
       {
+        file: 'concentration/threads detail.png',
+        title: 'Threads of Friendship',
+        date: '2025',
+        dimensions: '54" x 29.5" x 17"',
+        media: 'Yarn, mixed fabrics, metal cushioned chairs',
+        description: 'A narrative installation linking craft and relationship.'
+      },
+      {
+        file: 'concentration/threads detail 2.png',
+        title: 'Threads of Friendship',
+        date: '2025',
+        dimensions: '54" x 29.5" x 17"',
+        media: 'Yarn, mixed fabrics, metal cushioned chairs',
+        description: 'A narrative installation linking craft and relationship.'
+      },
+      {
         file: 'concentration/threads detail 3.png',
+        title: 'Threads of Friendship',
+        date: '2025',
+        dimensions: '54" x 29.5" x 17"',
+        media: 'Yarn, mixed fabrics, metal cushioned chairs',
+        description: 'A narrative installation linking craft and relationship.'
+      },
+      {
+        file: 'concentration/threads detail 4.png',
+        title: 'Threads of Friendship',
+        date: '2025',
+        dimensions: '54" x 29.5" x 17"',
+        media: 'Yarn, mixed fabrics, metal cushioned chairs',
+        description: 'A narrative installation linking craft and relationship.'
+      },
+      {
+        file: 'concentration/threads detail 5.png',
         title: 'Threads of Friendship',
         date: '2025',
         dimensions: '54" x 29.5" x 17"',
@@ -324,13 +356,41 @@ const portfolioItems = [
   {
     id: 'concentration-Red figures 1,2,3',
     section: 'Concentration: Sculpture',
-    file: 'concentration/Red figures 1,2,3.png',
-    thumbnail: 'concentration/Red figures 1,2,3_thumb.png',
-    title: 'Red Figure #1, #2, #3',
-    date: '2026',
-    dimensions: '6” x 8” x 8” (squiggly figure), 4” x 18.5” x 13.75” (big figure), 3.5” x 8.75” x 5.5” (curved figure)',
-    media: 'Aluminum wire, aluminum foil, yarn',
-    description: 'A playful set of figures built with line and textile.'
+    group: [
+      {
+        file: 'concentration/Red figures 1,2,3.png',
+        thumbnail: 'concentration/Red figures 1,2,3_thumb.png',
+        title: 'Red Figure #1, #2, #3',
+        date: '2026',
+        dimensions: '6” x 8” x 8” (squiggly figure), 4” x 18.5” x 13.75” (big figure), 3.5” x 8.75” x 5.5” (curved figure)',
+        media: 'Aluminum wire, aluminum foil, yarn',
+        description: 'A playful set of figures built with line and textile.'
+      },
+      {
+        file: 'concentration/red fig detail.png',
+        title: 'Red Figure #1, #2, #3',
+        date: '2026',
+        dimensions: '6” x 8” x 8” (squiggly figure), 4” x 18.5” x 13.75” (big figure), 3.5” x 8.75” x 5.5” (curved figure)',
+        media: 'Aluminum wire, aluminum foil, yarn',
+        description: 'A playful set of figures built with line and textile.'
+      },
+      {
+        file: 'concentration/red fig detail 2.png',
+        title: 'Red Figure #1, #2, #3',
+        date: '2026',
+        dimensions: '6” x 8” x 8” (squiggly figure), 4” x 18.5” x 13.75” (big figure), 3.5” x 8.75” x 5.5” (curved figure)',
+        media: 'Aluminum wire, aluminum foil, yarn',
+        description: 'A playful set of figures built with line and textile.'
+      },
+      {
+        file: 'concentration/red fig detail 3.png',
+        title: 'Red Figure #1, #2, #3',
+        date: '2026',
+        dimensions: '6” x 8” x 8” (squiggly figure), 4” x 18.5” x 13.75” (big figure), 3.5” x 8.75” x 5.5” (curved figure)',
+        media: 'Aluminum wire, aluminum foil, yarn',
+        description: 'A playful set of figures built with line and textile.'
+      },
+    ]
   },
   {
     id: 'concentration-IMG_3529',
