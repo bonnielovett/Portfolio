@@ -520,16 +520,8 @@ const portfolioItems = [
     section: 'Concentration: Fiber Art',
     group: [
       {
-        file: 'concentration/A lovely snuggly bendy.png',
-        thumbnail: 'concentration/A lovely snuggly thumb.png',
-        title: 'A Lovely Snuggly Bendy Friendy',
-        date: '2025',
-        dimensions: '30" x 12" x 16"',
-        media: 'Felt squares, stuffing, embroidery thread',
-        description: 'A joyful soft sculpture inspired by comfort and play.'
-      },
-      {
         file: 'concentration/Lovely Snuggly.png',
+        thumbnail: 'concentration/lovely snuggly thumb.png',
         title: 'A Lovely Snuggly Bendy Friendy',
         date: '2025',
         dimensions: '30" x 12" x 16"',
