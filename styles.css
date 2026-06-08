@@ -434,12 +434,19 @@ h3 {
   margin: 32px 0;
 }
 
+.detail-image-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: start;
+}
+
 .detail-image {
-  position: relative;
+  flex: 1;
   border-radius: 32px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.08);
-  align-self: start;
+  min-width: 0;
 }
 
 .detail-image img {
@@ -447,6 +454,40 @@ h3 {
   height: 100%;
   object-fit: contain;
   min-height: 420px;
+}
+
+.carousel-control {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(8, 28, 70, 0.75);
+  color: #ffffff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carousel-control:hover {
+  background: rgba(8, 28, 70, 0.95);
+}
+
+.carousel-prev {
+  order: -1;
+}
+
+.carousel-next {
+  order: 1;
+}
+
+.carousel-control:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 .detail-info {

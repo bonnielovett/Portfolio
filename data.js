@@ -23,6 +23,17 @@ const portfolioItems = [
     description: 'A drawing that captures atmosphere and memory from camp life.'
   },
   {
+    id: 'drawings-foot',
+    section: 'Drawings',
+    file: 'drawings/IMG_0116',
+    thumbnail: 'drawings/IMG_0116_thumb.png',
+    title: 'Looking out over the PCT"',
+    date: '2025',
+    dimensions: '25.5" x 19.75"',
+    media: 'Charcoal on toned drawing paper',
+    description: 'A drawing of a foot.'
+  },
+  {
     id: 'drawings-IMG_0985',
     section: 'Drawings',
     file: 'drawings/IMG_0985.png',
@@ -115,24 +126,80 @@ const portfolioItems = [
   {
     id: 'concentration-Adrift',
     section: 'Concentration: Sculpture',
-    file: 'concentration/Adrift.png',
-    thumbnail: 'concentration/Adrift_thumb.png',
-    title: 'Adrift',
-    date: '2025',
-    dimensions: '26.5" x 27.5" x 25"',
-    media: 'Found wood, mixed fabrics',
-    description: 'A piece that evokes floating motion and open possibility.'
+    group: [
+    {
+      file: 'concentration/Adrift.png',
+      thumbnail: 'concentration/Adrift_thumb.png',
+      title: 'Adrift',
+      date: '2025',
+      dimensions: '26.5" x 27.5" x 25"',
+      media: 'Found wood, mixed fabrics',
+      description: 'A piece that evokes floating motion and open possibility.'
+    },
+    {
+      file: 'concentration/Adrift perspective.png',
+      title: 'Adrift',
+      date: '2025',
+      dimensions: '26.5" x 27.5" x 25"',
+      media: 'Found wood, mixed fabrics',
+      description: 'A piece that evokes floating motion and open possibility.'
+    },
+    {
+      file: 'concentration/adrift detail.png',
+      title: 'Adrift',
+      date: '2025',
+      dimensions: '26.5" x 27.5" x 25"',
+      media: 'Found wood, mixed fabrics',
+      description: 'A piece that evokes floating motion and open possibility.'
+    },
+    {
+      file: 'concentration/Adrift detail 2.png',
+      title: 'Adrift',
+      date: '2025',
+      dimensions: '26.5" x 27.5" x 25"',
+      media: 'Found wood, mixed fabrics',
+      description: 'A piece that evokes floating motion and open possibility.'
+    },
+    {
+      file: 'concentration/Adrift detail 3.png',
+      title: 'Adrift',
+      date: '2025',
+      dimensions: '26.5" x 27.5" x 25"',
+      media: 'Found wood, mixed fabrics',
+      description: 'A piece that evokes floating motion and open possibility.'
+    },
+  ]
   },
   {
     id: 'concentration-Little Bonnie',
     section: 'Concentration: Sculpture',
-    file: 'concentration/Little Bonnie.png',
-    thumbnail: 'concentration/Little Bonnie_thumb.png',
-    title: 'Little Bonnie',
-    date: '2026',
-    dimensions: '10.5" x 14" x 13"(arms can be repositioned)',
-    media: 'Found objects',
-    description: 'A found-object sculpture that celebrates personal memory.'
+    group: [
+      {
+        file: 'concentration/Little Bonnie.png',
+        thumbnail: 'concentration/Little Bonnie_thumb.png',
+        title: 'Little Bonnie',
+        date: '2026',
+        dimensions: '10.5" x 14" x 13"(arms can be repositioned)',
+        media: 'Found objects',
+        description: 'A found-object sculpture that celebrates personal memory.'
+      },
+      {
+        file: 'concentration/Little bonnie detail.png',
+        title: 'Little Bonnie',
+        date: '2026',
+        dimensions: '10.5" x 14" x 13"(arms can be repositioned)',
+        media: 'Found objects',
+        description: 'A found-object sculpture that celebrates personal memory.'
+      },
+      {
+        file: 'concentration/Little bonnie detail 2.png',
+        title: 'Little Bonnie',
+        date: '2026',
+        dimensions: '10.5" x 14" x 13"(arms can be repositioned)',
+        media: 'Found objects',
+        description: 'A found-object sculpture that celebrates personal memory.'
+      },
+    ]
   },
   {
     id: 'concentration-IMG_0242',
@@ -148,35 +215,111 @@ const portfolioItems = [
   {
     id: 'concentration-IMG_0256',
     section: 'Concentration: Fiber Art',
-    file: 'concentration/IMG_0256.png',
-    thumbnail: 'concentration/IMG_0256_thumb.png',
-    title: 'Threads of Friendship',
-    date: '2026',
-    dimensions: '54" x 29.5" x 17"',
-    media: 'Yarn, mixed fabrics, metal cushioned chairs',
-    description: 'A narrative installation linking craft and relationship.'
+    group: [
+      {
+        file: 'concentration/IMG_0256.png',
+        thumbnail: 'concentration/IMG_0256_thumb.png',
+        title: 'Threads of Friendship',
+        date: '2026',
+        dimensions: '54" x 29.5" x 17"',
+        media: 'Yarn, mixed fabrics, metal cushioned chairs',
+        description: 'A narrative installation linking craft and relationship.'
+      },
+      {
+        file: 'concentration/threads detail 3.png',
+        title: 'Threads of Friendship',
+        date: '2025',
+        dimensions: '54" x 29.5" x 17"',
+        media: 'Yarn, mixed fabrics, metal cushioned chairs',
+        description: 'A narrative installation linking craft and relationship.'
+      },
+    ]
   },
   {
     id: 'concentration-IMG_0356',
     section: 'Concentration: Sculpture',
-    file: 'concentration/IMG_0356.png',
-    thumbnail: 'concentration/IMG_0356_thumb.png',
-    title: 'Quarrel',
-    date: '2026',
-    dimensions: '11.5" x 3.5" x 8.5"',
-    media: 'Plaster bandage, plaster mold',
-    description: 'A sculptural study in tension, form, and surface.'
+    group: [
+      {
+        file: 'concentration/IMG_0356.png',
+        thumbnail: 'concentration/IMG_0356_thumb.png',
+        title: 'Quarrel',
+        date: '2026',
+        dimensions: '11.5" x 3.5" x 8.5"',
+        media: 'Plaster bandage, plaster mold',
+        description: 'A sculptural study in tension, form, and surface.'
+      },
+      {
+        file: 'concentration/quarrel detail.png',
+        title: 'Quarrel',
+        date: '2026',
+        dimensions: '11.5" x 3.5" x 8.5"',
+        media: 'Plaster bandage, plaster mold',
+        description: 'A sculptural study in tension, form, and surface.'
+      },
+      {
+        file: 'concentration/quarrel detail 2.png',
+        title: 'Quarrel',
+        date: '2026',
+        dimensions: '11.5" x 3.5" x 8.5"',
+        media: 'Plaster bandage, plaster mold',
+        description: 'A sculptural study in tension, form, and surface.'
+      },
+      {
+        file: 'concentration/quarrel detail 3.png',
+        title: 'Quarrel',
+        date: '2026',
+        dimensions: '11.5" x 3.5" x 8.5"',
+        media: 'Plaster bandage, plaster mold',
+        description: 'A sculptural study in tension, form, and surface.'
+      },
+    ]
   },
   {
     id: 'concentration-trees 1,2,3',
     section: 'Concentration: Sculpture',
-    file: 'concentration/trees 1,2,3.png',
-    thumbnail: 'concentration/trees 1,2,3_thumb.png',
-    title: 'Tree #1, #2, #3',
-    date: '2026',
-    dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
-    media: 'Found wood, bamboo stalks, cardstock, felt',
-    description: 'A trio of organic forms that suggest growth and structure.'
+    group: [
+      {
+        file: 'concentration/trees 1,2,3.png',
+        thumbnail: 'concentration/trees 1,2,3_thumb.png',
+        title: 'Tree #1, #2, #3',
+        date: '2026',
+        dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
+        media: 'Found wood, bamboo stalks, cardstock, felt',
+        description: 'A trio of organic forms that suggest growth and structure.'
+      },
+      {
+        file: 'concentration/Tree detail 1.png',
+        title: 'Tree #1, #2, #3',
+        date: '2026',
+        dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
+        media: 'Found wood, bamboo stalks, cardstock, felt',
+        description: 'A trio of organic forms that suggest growth and structure.'
+      },
+      {
+        file: 'concentration/Tree detail 2.png',
+        title: 'Tree #1, #2, #3',
+        date: '2026',
+        dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
+        media: 'Found wood, bamboo stalks, cardstock, felt',
+        description: 'A trio of organic forms that suggest growth and structure.'
+      },
+      {
+        file: 'concentration/Tree detail 3.png',
+        title: 'Tree #1, #2, #3',
+        date: '2026',
+        dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
+        media: 'Found wood, bamboo stalks, cardstock, felt',
+        description: 'A trio of organic forms that suggest growth and structure.'
+      },
+      {
+        file: 'concentration/Tree detail 4.png',
+        title: 'Tree #1, #2, #3',
+        date: '2026',
+        dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
+        media: 'Found wood, bamboo stalks, cardstock, felt',
+        description: 'A trio of organic forms that suggest growth and structure.'
+      },
+    ]
   },
   {
     id: 'concentration-Red figures 1,2,3',
@@ -192,13 +335,17 @@ const portfolioItems = [
   {
     id: 'concentration-IMG_3529',
     section: 'Concentration: Fiber Art',
-    file: 'concentration/IMG_3529.png',
-    thumbnail: 'concentration/IMG_3529_thumb.png',
-    title: 'Trying Something New',
-    date: '2025',
-    dimensions: '10" x 8"',
-    media: 'Yarn, embroidery thread, fabrics',
-    description: 'A tactile composition using stitch and soft materials.'
+    group: [
+      {
+        file: 'concentration/IMG_3529.png',
+        thumbnail: 'concentration/IMG_3529_thumb.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, fabrics',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
+    ]
   },
   {
     id: 'concentration-A lovely snuggly bendy',
