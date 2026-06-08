@@ -69,7 +69,7 @@ const portfolioItems = [
   // Foundation
   {
     id: 'foundation-40 squares',
-    section: 'Foundation - 2D',
+    section: '2D Design',
     file: 'foundation/40 squares changed.png',
     thumbnail: 'foundation/40 squares changed thumb.png',
     title: '40 Squares',
@@ -80,7 +80,7 @@ const portfolioItems = [
   },
   {
     id: 'foundation-audrey values',
-    section: 'Foundation - 2D',
+    section: '2D Design',
     file: 'foundation/audrey changed.png',
     thumbnail: 'foundation/audrey changed thumb.png',
     title: 'Values of Audrey',
@@ -91,7 +91,7 @@ const portfolioItems = [
   },
   {
     id: 'foundation-textured fun',
-    section: 'Foundation - 3D',
+    section: '3D Design',
     group: [
       {
     file: 'foundation/Textured Fun.png',
@@ -133,7 +133,7 @@ const portfolioItems = [
   },
   {
     id: 'foundation-cascade',
-    section: 'Foundation - 3D',
+    section: '3D Design',
     group: [
       {
         file: 'foundation/cascade.png',
