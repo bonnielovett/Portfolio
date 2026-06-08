@@ -51,17 +51,28 @@ function renderDetail(item) {
   const prevButton = document.getElementById('carouselPrev');
   const nextButton = document.getElementById('carouselNext');
 
-  prevButton.addEventListener('click', () => {
+  const handlePrevious = () => {
     if (currentIndex.value > 0) {
       currentIndex.value -= 1;
       updateDetailImage(item, currentIndex.value);
     }
-  });
+  };
 
-  nextButton.addEventListener('click', () => {
+  const handleNext = () => {
     if (Array.isArray(item.group) && currentIndex.value < item.group.length - 1) {
       currentIndex.value += 1;
       updateDetailImage(item, currentIndex.value);
+    }
+  };
+
+  prevButton.addEventListener('click', handlePrevious);
+  nextButton.addEventListener('click', handleNext);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') {
+      handlePrevious();
+    } else if (e.key === 'ArrowRight') {
+      handleNext();
     }
   });
 }
