@@ -226,8 +226,8 @@ const portfolioItems = [
     section: 'Concentration: Fiber Art',
     group: [
       {
-        file: 'concentration/IMG_0242.png',
-        thumbnail: 'concentration/IMG_0242_thumb.png',
+        file: 'concentration/collar.png',
+        thumbnail: 'concentration/collar thumbnail.png',
         title: 'Collar of Color',
         date: '2025',
         dimensions: '17.5" x 15.5" x 8.5"',
