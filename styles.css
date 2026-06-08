@@ -449,6 +449,41 @@ h3 {
   min-height: 420px;
 }
 
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(8, 28, 70, 0.75);
+  color: #ffffff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-control:hover {
+  background: rgba(8, 28, 70, 0.95);
+}
+
+.carousel-prev {
+  left: 16px;
+}
+
+.carousel-next {
+  right: 16px;
+}
+
+.carousel-control:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
 .detail-info {
   display: grid;
   gap: 18px;

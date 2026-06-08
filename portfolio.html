@@ -35,16 +35,17 @@
       link.className = 'gallery-item';
       link.href = `detail.html?item=${encodeURIComponent(item.id)}`;
 
+      const thumbnailSource = item.group?.[0] || item;
       const image = document.createElement('img');
-      image.src = item.thumbnail || item.file;
-      image.alt = `${item.title} by Bonnie Davidson`;
+      image.src = thumbnailSource.thumbnail || thumbnailSource.file;
+      image.alt = `${thumbnailSource.title || item.title} by Bonnie Davidson`;
 
       const figcaption = document.createElement('figcaption');
       const titleSpan = document.createElement('span');
       titleSpan.className = 'image-title';
       const em = document.createElement('em');
       const strong = document.createElement('strong');
-      strong.textContent = item.title;
+      strong.textContent = item.title || thumbnailSource.title;
       em.appendChild(strong);
       titleSpan.appendChild(em);
       figcaption.appendChild(titleSpan);

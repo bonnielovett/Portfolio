@@ -7,19 +7,63 @@ function findItem(itemId) {
   return portfolioItems.find((item) => item.id === itemId);
 }
 
-function renderDetail(item) {
+function getPrimaryFile(item) {
+  if (Array.isArray(item.group) && item.group.length > 0) {
+    return item.group[0];
+  }
+  return item;
+}
+
+function updateDetailImage(item, fileIndex) {
   const image = document.getElementById('detailImage');
   const section = document.getElementById('detailSection');
   const title = document.getElementById('detailTitle');
   const meta = document.getElementById('detailMeta');
   const media = document.getElementById('detailMedia');
+  const prevButton = document.getElementById('carouselPrev');
+  const nextButton = document.getElementById('carouselNext');
 
-  image.src = item.file;
-  image.alt = `${item.title} by Bonnie Davidson`;
+  const fileItem = Array.isArray(item.group) ? item.group[fileIndex] : item;
+
+  image.src = fileItem.file;
+  image.alt = `${fileItem.title || item.title} by Bonnie Davidson`;
   section.textContent = item.section;
-  title.innerHTML = `<em><strong>${item.title}</strong></em>`;
-  meta.textContent = `${item.date} • ${item.dimensions}`;
-  media.textContent = item.media || 'Not specified';
+  title.innerHTML = `<em><strong>${fileItem.title || item.title}</strong></em>`;
+  meta.textContent = `${fileItem.date || item.date} • ${fileItem.dimensions || item.dimensions}`;
+  media.textContent = fileItem.media || item.media || 'Not specified';
+
+  if (Array.isArray(item.group) && item.group.length > 1) {
+    prevButton.style.display = 'block';
+    nextButton.style.display = 'block';
+    prevButton.disabled = fileIndex === 0;
+    nextButton.disabled = fileIndex >= item.group.length - 1;
+  } else {
+    prevButton.style.display = 'none';
+    nextButton.style.display = 'none';
+  }
+}
+
+function renderDetail(item) {
+  const currentIndex = { value: 0 };
+
+  updateDetailImage(item, currentIndex.value);
+
+  const prevButton = document.getElementById('carouselPrev');
+  const nextButton = document.getElementById('carouselNext');
+
+  prevButton.addEventListener('click', () => {
+    if (currentIndex.value > 0) {
+      currentIndex.value -= 1;
+      updateDetailImage(item, currentIndex.value);
+    }
+  });
+
+  nextButton.addEventListener('click', () => {
+    if (Array.isArray(item.group) && currentIndex.value < item.group.length - 1) {
+      currentIndex.value += 1;
+      updateDetailImage(item, currentIndex.value);
+    }
+  });
 }
 
 function connectNavigation(itemId) {
@@ -58,7 +102,9 @@ window.addEventListener('DOMContentLoaded', () => {
     title.textContent = 'Artwork not found';
     meta.textContent = '';
     section.textContent = '';
-    description.textContent = 'Please return to the portfolio and select an artwork.';
+    if (description) {
+      description.textContent = 'Please return to the portfolio and select an artwork.';
+    }
     image.src = '';
     image.alt = 'Artwork not found';
     document.getElementById('prevLink').href = 'portfolio.html';

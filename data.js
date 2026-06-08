@@ -23,6 +23,17 @@ const portfolioItems = [
     description: 'A drawing that captures atmosphere and memory from camp life.'
   },
   {
+    id: 'drawings-foot',
+    section: 'Drawings',
+    file: 'drawings/IMG_0116',
+    thumbnail: 'drawings/IMG_0116_thumb.png',
+    title: 'Looking out over the PCT"',
+    date: '2025',
+    dimensions: '25.5" x 19.75"',
+    media: 'Charcoal on toned drawing paper',
+    description: 'A drawing of a foot.'
+  },
+  {
     id: 'drawings-IMG_0985',
     section: 'Drawings',
     file: 'drawings/IMG_0985.png',
@@ -192,13 +203,26 @@ const portfolioItems = [
   {
     id: 'concentration-IMG_3529',
     section: 'Concentration: Fiber Art',
-    file: 'concentration/IMG_3529.png',
-    thumbnail: 'concentration/IMG_3529_thumb.png',
-    title: 'Trying Something New',
-    date: '2025',
-    dimensions: '10" x 8"',
-    media: 'Yarn, embroidery thread, cotton, and polyester',
-    description: 'A tactile composition using stitch and soft materials.'
+    group: [
+      {
+        file: 'concentration/IMG_3529.png',
+        thumbnail: 'concentration/IMG_3529_thumb.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, cotton, and polyester',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
+      {
+        file: 'concentration/IMG_3529.png',
+        thumbnail: 'concentration/IMG_3529_thumb.png',
+        title: 'Trying Something New',
+        date: '2025',
+        dimensions: '10" x 8"',
+        media: 'Yarn, embroidery thread, cotton, and polyester',
+        description: 'A tactile composition using stitch and soft materials.'
+      },
+    ]
   },
   {
     id: 'concentration-A lovely snuggly bendy',
