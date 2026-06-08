@@ -25,8 +25,8 @@ const portfolioItems = [
   {
     id: 'drawings-IMG_0985',
     section: 'Drawings',
-    file: 'drawings/IMG_0985.png',
-    thumbnail: 'drawings/IMG_0985_thumb.png',
+    file: 'drawings/boxes changed.png',
+    thumbnail: 'drawings/boxes changed thumb.png',
     title: 'Boxes',
     date: '2024',
     dimensions: '10.62” x 8”', 
@@ -36,8 +36,8 @@ const portfolioItems = [
   {
     id: 'drawings-IMG_1267',
     section: 'Drawings',
-    file: 'drawings/IMG_1267.png',
-    thumbnail: 'drawings/IMG_1267_thumb.png',
+    file: 'drawings/bike changed.png',
+    thumbnail: 'drawings/bike changed thumb.png',
     title: 'Bike',
     date: '2024',
     dimensions: '18” x 24"',
@@ -47,8 +47,8 @@ const portfolioItems = [
   {
     id: 'drawings-IMG_1284',
     section: 'Drawings',
-    file: 'drawings/IMG_1284.png',
-    thumbnail: 'drawings/IMG_1284_thumb.png',
+    file: 'drawings/watering can changed.png',
+    thumbnail: 'drawings/watering can thumb.png',
     title: 'Watering Can',
     date: '2024',
     dimensions: '24" x 18"',
@@ -58,8 +58,8 @@ const portfolioItems = [
   {
     id: 'drawings-IMG_1295',
     section: 'Drawings',
-    file: 'drawings/IMG_1295.png',
-    thumbnail: 'drawings/IMG_1295_thumb.png',
+    file: 'drawings/face and hands new perspective.png',
+    thumbnail: 'drawings/face and hands new perspective thumb.png',
     title: 'Face and Hands',
     date: '2024',
     dimensions: '18” x 24"',
@@ -70,8 +70,8 @@ const portfolioItems = [
   {
     id: 'foundation-IMG_0379',
     section: 'Foundation - 2D',
-    file: 'foundation/IMG_0379.png',
-    thumbnail: 'foundation/IMG_0379_thumb.png',
+    file: 'foundation/40 squares changed.png',
+    thumbnail: 'foundation/40 squares changed thumb.png',
     title: '40 Squares',
     date: '2023',
     dimensions: '17" x 19.33"',
@@ -81,8 +81,8 @@ const portfolioItems = [
   {
     id: 'foundation-IMG_0694',
     section: 'Foundation - 2D',
-    file: 'foundation/IMG_0694.png',
-    thumbnail: 'foundation/IMG_0694_thumb.png',
+    file: 'foundation/audrey changed.png',
+    thumbnail: 'foundation/audrey changed thumb.png',
     title: 'Values of Audrey',
     date: '2023',
     dimensions: '8.75" x 12"',
@@ -90,8 +90,10 @@ const portfolioItems = [
     description: 'A layered exploration of color, value, and composition.'
   },
   {
-    id: 'foundation-Textured Fun',
+    id: 'foundation-textured fun',
     section: 'Foundation - 3D',
+    group: [
+      {
     file: 'foundation/Textured Fun.png',
     thumbnail: 'foundation/Textured Fun_thumb.png',
     title: 'Textured Fun',
@@ -99,6 +101,35 @@ const portfolioItems = [
     dimensions: '17" x 16" x 37"',
     media: 'Cardboard, packing paper',
     description: 'An experimental surface study built with cardboard and glue.'
+      },
+      {
+        file: 'foundation/textured detail.png',
+        thumbnail: 'foundation/textured detial thumb.png',
+        title: 'Textured Fun',
+        date: '2024',
+        dimensions: '17" x 16" x 37"',
+        media: 'Cardboard, packing paper',
+        description: 'A tall, playful structure built from reflective foil and texture.'
+      },
+      {
+        file: 'foundation/textured detail 2.png',
+        thumbnail: 'foundation/textured detail 2 thumb.png',
+        title: 'Textured Fun',
+        date: '2024',
+        dimensions: '17" x 16" x 37"',
+        media: 'Cardboard, packing paper',
+        description: 'A tall, playful structure built from reflective foil and texture.'
+      },
+        {
+        file: 'foundation/textured detail 3.png',
+        thumbnail: 'foundation/textured detail 3 thumb.png',
+        title: 'Textured Fun',
+        date: '2024',
+        dimensions: '17" x 16" x 37"',
+        media: 'Cardboard, packing paper',
+        description: 'A tall, playful structure built from reflective foil and texture.'
+      },
+    ]
   },
   {
     id: 'foundation-cascade',
