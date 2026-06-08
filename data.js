@@ -48,7 +48,7 @@ const portfolioItems = [
     id: 'drawings-watering can',
     section: 'Drawings',
     file: 'drawings/watering can changed.png',
-    thumbnail: 'drawings/watering can thumbnail.png',
+    thumbnail: 'drawings/watering can changed thumb.png',
     title: 'Watering Can',
     date: '2024',
     dimensions: '24" x 18"',
