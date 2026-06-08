@@ -490,7 +490,7 @@ const portfolioItems = [
     group: [
       {
         file: 'concentration/A lovely snuggly bendy.png',
-        thumbnail: 'concentration/A lovely snuggly bendy_thumb.png',
+        thumbnail: 'concentration/A lovely snuggly thumb.png',
         title: 'A Lovely Snuggly Bendy Friendy',
         date: '2025',
         dimensions: '30" x 12" x 16"',
@@ -498,7 +498,7 @@ const portfolioItems = [
         description: 'A joyful soft sculpture inspired by comfort and play.'
       },
       {
-        file: 'concentration/lovely snuggly detail.png',
+        file: 'concentration/Lovely Snuggly.png',
         title: 'A Lovely Snuggly Bendy Friendy',
         date: '2025',
         dimensions: '30" x 12" x 16"',
