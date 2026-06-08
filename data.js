@@ -181,7 +181,7 @@ const portfolioItems = [
       description: 'A piece that evokes floating motion and open possibility.'
     },
     {
-      file: 'concentration/Adrift detail 3.png',
+      file: 'concentration/adrift detail 3.png',
       title: 'Adrift',
       date: '2025',
       dimensions: '26.5" x 27.5" x 25"',
@@ -376,7 +376,7 @@ const portfolioItems = [
         description: 'A trio of organic forms that suggest growth and structure.'
       },
       {
-        file: 'concentration/Tree detail 2.png',
+        file: 'concentration/tree detail 2.png',
         title: 'Tree #1, #2, #3',
         date: '2026',
         dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
@@ -384,7 +384,7 @@ const portfolioItems = [
         description: 'A trio of organic forms that suggest growth and structure.'
       },
       {
-        file: 'concentration/Tree detail 3.png',
+        file: 'concentration/tree detail 3.png',
         title: 'Tree #1, #2, #3',
         date: '2026',
         dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
@@ -392,7 +392,7 @@ const portfolioItems = [
         description: 'A trio of organic forms that suggest growth and structure.'
       },
       {
-        file: 'concentration/Tree detail 4.png',
+        file: 'concentration/tree detail 4.png',
         title: 'Tree #1, #2, #3',
         date: '2026',
         dimensions: '20.5” x 7” x 7” (tree with screws), 23.25” x 13” x 7.25” (diagonal tree), 20” x 5.25”, 5.5” (stacked wood)',
