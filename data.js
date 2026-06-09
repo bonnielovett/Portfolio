@@ -70,8 +70,8 @@ const portfolioItems = [
   {
     id: '2D Design-40 squares',
     section: '2D Design',
-    file: '2D Design/40 squares changed.png',
-    thumbnail: '2D Design/40 squares changed thumb.png',
+    file: 'foundation/40 squares changed.png',
+    thumbnail: 'foundation/40 squares changed thumb.png',
     title: '40 Squares',
     date: '2023',
     dimensions: '17" x 19.33"',
@@ -81,8 +81,8 @@ const portfolioItems = [
   {
     id: '2D Design-audrey values',
     section: '2D Design',
-    file: '2D Design/audrey changed.png',
-    thumbnail: '2D Design/audrey changed thumb.png',
+    file: 'foundation/audrey changed.png',
+    thumbnail: 'foundation/audrey changed thumb.png',
     title: 'Values of Audrey',
     date: '2023',
     dimensions: '8.75" x 12"',
@@ -94,8 +94,8 @@ const portfolioItems = [
     section: '3D Design',
     group: [
       {
-    file: '3D Design/Textured Fun.png',
-    thumbnail: '3D Design/Textured Fun_thumb.png',
+    file: 'foundation/Textured Fun.png',
+    thumbnail: 'foundation/Textured Fun_thumb.png',
     title: 'Textured Fun',
     date: '2024',
     dimensions: '17" x 16" x 37"',
@@ -103,8 +103,8 @@ const portfolioItems = [
     description: 'An experimental surface study built with cardboard and glue.'
       },
       {
-        file: '3D Design/textured detail.png',
-        thumbnail: '3D Design/textured detial thumb.png',
+        file: 'foundation/textured detail.png',
+        thumbnail: 'foundation/textured detail thumb.png',
         title: 'Textured Fun',
         date: '2024',
         dimensions: '17" x 16" x 37"',
@@ -112,8 +112,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
       {
-        file: '3D Design/textured detail 2.png',
-        thumbnail: '3D Design/textured detail 2 thumb.png',
+        file: 'foundation/textured detail 2.png',
+        thumbnail: 'foundation/textured detail 2 thumb.png',
         title: 'Textured Fun',
         date: '2024',
         dimensions: '17" x 16" x 37"',
@@ -121,8 +121,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
         {
-        file: '3D Design/textured detail 3.png',
-        thumbnail: '3D Design/textured detail 3 thumb.png',
+        file: 'foundation/textured fun detail 3.png',
+        thumbnail: 'foundation/textured fun detail 3 thumb.png',
         title: 'Textured Fun',
         date: '2024',
         dimensions: '17" x 16" x 37"',
@@ -136,8 +136,8 @@ const portfolioItems = [
     section: '3D Design',
     group: [
       {
-        file: '3D Design/cascade.png',
-        thumbnail: '3D Design/cascade_thumb.png',
+        file: 'foundation/cascade.png',
+        thumbnail: 'foundation/cascade_thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
@@ -145,8 +145,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
       {
-        file: '3D Design/cascade detail.png',
-        thumbnail: '3D Design/cascade detail thumb.png',
+        file: 'foundation/cascade detail.png',
+        thumbnail: 'foundation/cascade detail_thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
@@ -154,8 +154,8 @@ const portfolioItems = [
         description: 'A tall, playful structure built from reflective foil and texture.'
       },
       {
-        file: '3D Design/Cascade detail 2.png',
-        thumbnail: '3D Design/Cascade detail 2 thumb.png',
+        file: 'foundation/Cascade detail 2.png',
+        thumbnail: 'foundation/Cascade detail 2_thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
