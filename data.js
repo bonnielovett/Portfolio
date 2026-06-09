@@ -136,8 +136,8 @@ const portfolioItems = [
     section: '3D Design',
     group: [
       {
-        file: 'foundation/cascade.png',
-        thumbnail: 'foundation/cascade_thumb.png',
+        file: 'foundation/new cascade.png',
+        thumbnail: 'foundation/new cascade thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
@@ -146,7 +146,6 @@ const portfolioItems = [
       },
       {
         file: 'foundation/cascade detail.png',
-        thumbnail: 'foundation/cascade detail_thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
@@ -155,7 +154,6 @@ const portfolioItems = [
       },
       {
         file: 'foundation/Cascade detail 2.png',
-        thumbnail: 'foundation/Cascade detail 2_thumb.png',
         title: 'Cascade',
         date: '2024',
         dimensions: 'Dimensions variable',
