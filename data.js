@@ -1,17 +1,6 @@
 const portfolioItems = [
   // Drawings
   {
-    id: 'drawings-Camp Orkila',
-    section: 'Drawings',
-    file: 'drawings/Camp Orkila.png',
-    thumbnail: 'drawings/Camp Orkila_thumb.png',
-    title: 'Beyond the PCT',
-    date: '2026',
-    dimensions: '19.75" x 25.5"',
-    media: 'Charcoal on toned drawing paper',
-    description: 'A drawing that captures atmosphere and memory from camp life.'
-  },
-  {
     id: 'drawings-foot',
     section: 'Drawings',
     file: 'drawings/black sock changed.jpg',
@@ -21,6 +10,17 @@ const portfolioItems = [
     dimensions: '25.5" x 19.75"',
     media: 'Charcoal on toned drawing paper',
     description: ''
+  },
+  {
+    id: 'drawings-Camp Orkila',
+    section: 'Drawings',
+    file: 'drawings/Camp Orkila.png',
+    thumbnail: 'drawings/Camp Orkila_thumb.png',
+    title: 'Beyond the PCT',
+    date: '2026',
+    dimensions: '19.75" x 25.5"',
+    media: 'Charcoal on toned drawing paper',
+    description: 'A drawing that captures atmosphere and memory from camp life.'
   },
   {
     id: 'drawings-boxes',
@@ -461,12 +461,12 @@ const portfolioItems = [
     ]
   },
   {
-    id: 'concentration-IMG_3529',
+    id: 'concentration-something new',
     section: 'Concentration: Fiber Art',
     group: [
       {
-        file: 'concentration/IMG_3529.png',
-        thumbnail: 'concentration/IMG_3529_thumb.png',
+        file: 'concentration/something new.png',
+        thumbnail: 'concentration/something new thumb.png',
         title: 'Trying Something New',
         date: '2025',
         dimensions: '10" x 8"',
