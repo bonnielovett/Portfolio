@@ -340,8 +340,8 @@ const portfolioItems = [
     section: 'Concentration: Sculpture',
     group: [
       {
-        file: 'concentration/IMG_0356.png',
-        thumbnail: 'concentration/IMG_0356_thumb.png',
+        file: 'concentration/Plaster hands changed.png',
+        thumbnail: 'concentration/Plaster hands changed thumb.png',
         title: 'Quarrel',
         date: '2026',
         dimensions: '11.5" x 3.5" x 8.5"',
