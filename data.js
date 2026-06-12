@@ -215,8 +215,8 @@ const portfolioItems = [
     section: 'Concentration: Sculpture',
     group: [
       {
-        file: 'concentration/Little Bonnie.png',
-        thumbnail: 'concentration/Little Bonnie_thumb.png',
+        file: 'concentration/Little Bonnie horizontal.png',
+        thumbnail: 'concentration/Little Bonnie horizontal thumb.png',
         title: 'Little Bonnie',
         date: '2026',
         dimensions: '10.5" x 14" x 13"(arms can be repositioned)',
