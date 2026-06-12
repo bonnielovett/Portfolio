@@ -136,7 +136,7 @@ const portfolioItems = [
     section: '3D Design',
     group: [
       {
-        file: 'foundation/new cascade.png',
+        file: 'foundation/new cascade .png',
         thumbnail: 'foundation/new cascade thumb.png',
         title: 'Cascade',
         date: '2024',
